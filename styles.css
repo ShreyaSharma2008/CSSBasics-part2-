@@ -77,6 +77,30 @@
   align-items: center;
   line-height: 1.5;
 }
+.t-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  border: 2px solid black;
+  line-height: 0.5;
+  margin: 20px;
+}
+.PriceCard{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  height: 250px;
+  background-color: bisque;
+}
+.PriceCard button{
+  cursor: pointer;
+}
 .cards{
   display: flex;
   justify-content: space-evenly;
@@ -92,4 +116,26 @@
   margin: 5px;
   border: 2px solid black;
   border-radius: 5px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(186, 227, 227);
+}
+.c1{
+  width: 200px;
+  display: inline-block;
+  margin: 20px;
+}
+.c2{
+  width: 200px;
+  display: inline-block;
+  margin: 20px;
+}
+.c3{
+  width: 200px;
+  display: inline-block;
+  margin: 20px;
 }
