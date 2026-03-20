@@ -46,3 +46,50 @@
   height: 200px;
   width: 200px;
 }
+.courseCard{
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 290px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.courseCard img{
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+}
+.productCard{
+  display: flex;
+  width: 400px;
+  border: 2px solid black;
+}
+.productCard img{
+  width: 250px;
+}
+.productCard ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.priceCard{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
